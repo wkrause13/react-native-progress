@@ -5,6 +5,7 @@ import {
   ART,
   Easing,
   View,
+  ViewPropTypes,
 } from 'react-native';
 
 import Arc from './Shapes/Arc';
@@ -27,7 +28,7 @@ export default class CircleSnail extends Component {
     hidesWhenStopped: PropTypes.bool,
     size: PropTypes.number,
     spinDuration: PropTypes.number,
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
     thickness: PropTypes.number,
   };
 

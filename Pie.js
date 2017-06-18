@@ -5,6 +5,7 @@ import {
   ART,
   StyleSheet,
   View,
+  ViewPropTypes,
 } from 'react-native';
 
 import Circle from './Shapes/Circle';
@@ -36,7 +37,7 @@ export class ProgressPie extends Component {
     ]),
     rotation: PropTypes.instanceOf(Animated.Value),
     size: PropTypes.number,
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
     unfilledColor: PropTypes.string,
   };
 
